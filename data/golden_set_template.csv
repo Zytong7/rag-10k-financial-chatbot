@@ -1,0 +1,6 @@
+id,question,expected_answer,category
+q1,Do these companies worry about the challenges or business risks in China or India in terms of cloud service?,,risk_evaluation
+q2,How much cash does Amazon have at the end of fiscal year 2025?,,number_checking
+q3,Compared to 2024, does Amazon's liquidity decrease or increase?,,number_checking
+q4,What is the business where main revenue comes from for Amazon / Google / Microsoft?,,cloud_vs_other
+q5,What main businesses does Amazon do?,,cloud_vs_other

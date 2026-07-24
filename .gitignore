@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.index_cache/
+usage.json
+results/
+base/
+.DS_Store
+.venv/
+venv/
+.Rhistory
+~$*

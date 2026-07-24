@@ -1,0 +1,4 @@
+id,question,expected_answer,category
+S1,"Among AWS, Google Cloud, and Microsoft's Intelligent Cloud, which segment had the highest operating margin in its most recent fiscal year? Rank all three with percentages.","Microsoft Intelligent Cloud ~42% ($44.6B/$106.3B FY2025) > AWS ~35% ($45.6B/$128.7B FY2025) > Google Cloud ~24% (~$13.9B/~$58.7B FY2025)",challenge_question
+S2,"According to Microsoft's FY2025 10-K, what was its FY2024 Productivity and Business Processes segment revenue?","$106,820 million (recast/restated FY2024 value)",fact_extraction
+S3,"What was Amazon's cash, cash equivalents, and restricted cash at the beginning of fiscal 2024?","The end-of-2023 balance, approximately $73.9 billion (verify exact figure against the cash flow statement)",trap_beginning_of_period

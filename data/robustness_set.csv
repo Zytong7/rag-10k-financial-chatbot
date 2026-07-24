@@ -1,0 +1,8 @@
+id,question,expected_answer,category
+S1a,"Rank the cloud segments of Amazon, Microsoft, and Alphabet by operating margin in their latest fiscal years, with the percentages.",Same as S1: Microsoft Intelligent Cloud ~42% > AWS ~35% > Google Cloud ~24% (grader: check numbers and the fiscal-year/segment-definition caveat),paraphrase_of_S1
+S1b,"Which is more profitable as a share of its own revenue: AWS, Azure's parent segment, or Google Cloud? Give the operating margin of each.",Same as S1; 'Azure's parent segment' should resolve to Microsoft Intelligent Cloud. Missing the alias = retrieval/routing failure,paraphrase_of_S1
+S1c,"三家公司的云业务里,哪家的经营利润率最高?请给出三家的具体百分比并排序。",Same as S1 but asked in Chinese; tests cross-lingual retrieval over English filings,paraphrase_of_S1_zh
+S2a,"In Microsoft's most recent annual report, what revenue is shown for the Productivity and Business Processes segment for the PRIOR fiscal year (FY2024)?","$106,820 million (recast FY2024 value as restated in the FY2025 10-K)",paraphrase_of_S2
+S2b,"Looking at Microsoft's FY2025 10-K segment table, what was P&BP revenue a year earlier?","$106,820 million; abbreviation 'P&BP' must resolve correctly",paraphrase_of_S2
+S3a,"At the start of fiscal year 2024, how much cash, cash equivalents, and restricted cash did Amazon hold?","~$73,890 million (beginning of 2024 = end of 2023; from the cash flow statement)",paraphrase_of_S3
+S3b,"What was Amazon's opening cash balance (including cash equivalents and restricted cash) for FY2024?","~$73,890 million; 'opening balance' phrasing must map to beginning-of-period",paraphrase_of_S3
